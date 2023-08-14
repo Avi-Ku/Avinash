@@ -9,12 +9,12 @@ public class oddeven {
 		Scanner sc=new Scanner(System.in);
 		int n;
 		
-		System.out.println("Enter a number");
+		System.out.println("Enter a Number");
 		n=sc.nextInt();
 		if(IsEven(n)) {
-			System.out.println("Even");
+			System.out.println("EVEN");
 		}else {
-			System.out.println("Odd");
+			System.out.println("ODD");
 		}
 	}
 
